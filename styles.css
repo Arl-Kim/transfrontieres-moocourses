@@ -69,8 +69,8 @@ button.nav-link:focus, #goto-top-link > a:focus{
 
 /*Login Page Styles*/
 .login-logo #logo-image{
-    width: 300px !important;
-    height: 300px !important;
+    max-width: 100% !important;
+    max-width: 100% !important;
 }
 
 input{
@@ -84,7 +84,7 @@ div.mt-3{
     font-size: 13px !important;
 }
 
-.loginform{
+.login-form-submit{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,8 +95,8 @@ div.mt-3{
     background-color: #fff;
     color: #c914c9;
     border: 1px solid #000c80;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 5px !important;
     font-weight: 600;
 }
@@ -106,7 +106,13 @@ div.mt-3{
     color: #c914c9;
 }
 
-.d-flex button{
+.login-form-forgotpassword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn.btn-secondary{
     display: none;
 }
 
