@@ -34,9 +34,6 @@ h6, button, input.btn{
 
 
 /*Non-Logged In User Front Page Styles(Login Link)*/
-span.site-name{
-    display: none !important;
-}
 
 span.login, #id_cancel{
     color: #000c80 !important;
@@ -71,9 +68,9 @@ button.nav-link:focus, #goto-top-link > a:focus{
 
 
 /*Login Page Styles*/
-img.img-fluid{
-    max-width: 100% !important;
-    max-height: 100% !important;
+.login-logo #logo-image{
+    width: 300px !important;
+    height: 300px !important;
 }
 
 input{
@@ -82,19 +79,24 @@ input{
     color: #000c80 !important;
 }
 
-.rememberpass > label:nth-child(2){
-    color: #000c80;
-}
-
 div.mt-3{
     color: #000c80 !important;
     font-size: 13px !important;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #loginbtn, .singlebutton > form > button{
     background-color: #fff;
     color: #c914c9;
     border: 1px solid #000c80;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px !important;
     font-weight: 600;
 }
@@ -104,6 +106,9 @@ div.mt-3{
     color: #c914c9;
 }
 
+.d-flex button{
+    display: none;
+}
 
 /*Logged In User Buttons(some) Styles*/
 button.dropdown-toggle{
