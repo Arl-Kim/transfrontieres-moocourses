@@ -217,20 +217,19 @@ span.logo > img{
     color: #000c40;
 }
 
-/*Left Side Navigation Bar Styles*/
-nav.list-group > ul{ 
-    border: 2px solid #000c40 !important;
-    border-radius: 5px !important;
+/*Activity Button*/
+
+.activity-information button{
+    background: #fff !important;
+    color: #c914c9 !important;
+    transition: all 400ms ease-in-out;
 }
 
-.list-group-item{
+
+.activity-information button:hover{
+    background: #c914c9 !important;
     color: #000c40 !important;
 }
-
-.list-group-item.active{
-    color: #fff !important;
-}
-
 
 /*Calendar Table Styles*/
 th.header, td.day{
