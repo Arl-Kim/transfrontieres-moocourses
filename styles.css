@@ -177,6 +177,10 @@ span.logo > img{
     display: none;
 }
 
+.page-header-headings h1{
+    display: none;
+}
+
 
 /*Left Side Navigation Bar Styles*/
 nav.list-group > ul{ 
