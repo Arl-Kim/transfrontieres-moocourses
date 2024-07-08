@@ -44,6 +44,19 @@ h6, button, input.btn{
     color: #c914c9 !important;
 }
 
+.alert-info{
+    background-color: #c914c9;
+    color: #000c40;
+}
+
+.edit-form-switch-form{
+    display: none !important;
+}
+
+.modal-footer a.d-inline{
+    display: none !important;
+}
+
 
 /*Non-Logged In User Front Page Styles(Login Link)*/
 
