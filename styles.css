@@ -264,6 +264,51 @@ td.day:hover{
     color: #c914c9 !important;
 }
 
+.drawer-toggler button{
+    transition: all 400ms ease-in-out;
+}
+
+.drawer-toggler button:hover{
+    background: #c914c9 !important ;
+}
+
+img.fp-repo-icon{
+    display: none;
+}
+
+.info h3.coursename a{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+ul.teachers li span, .category-content span{
+    color: #c914c9 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.paging a, .ml-sm-auto a{
+    background: #c914c9;
+    color: #000c40;
+}
+
+.paging a:hover, .ml-sm-auto a:hover{
+    background: #000c40;
+}
+
+.primary-navigation .moremenu ul li a{
+    color: #000c40 !important;
+    font-weight: 600 !important;
+    transition: all 400ms ease-in-out;
+}
+
+.primary-navigation .moremenu ul li a:hover{
+    color: #c914c9 !important;
+}
+
+.primary-navigation .moremenu ul li a.active{
+    color: #c914c9 !important;
+}
+
 
 /*Footer Styles*/
 #page-footer{
