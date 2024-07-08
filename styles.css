@@ -242,6 +242,17 @@ td.day:hover{
     border-radius: 5px;
 }
 
+.modal-header button:hover{
+    color: #000c40 !important;
+}
+
+.modal-header button span{
+    color: #c914c9 !important;
+}
+
+.modal-header button span:hover{
+    color: #000c40 !important;
+}
 
 /*Font Awesome Styles*/
 .fa{
