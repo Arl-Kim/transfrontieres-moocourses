@@ -181,6 +181,41 @@ span.logo > img{
     display: none;
 }
 
+/*Notification Area Styles*/
+
+.notification-area .control-area .content .notification{
+    background: transparent;
+    transition: all 400ms ease-in-out;
+}
+
+.notification-area .control-area .content .notification:hover{
+    background: #c914c9;
+}
+
+.notification-area .control-area .content .notification.selected{
+    background: #000c40;
+}
+
+.notification-area .content-area .header{
+    background: #000c40;
+}
+
+.header .subject-container{
+    color: #c914c9;
+    font-weight: 700;
+}
+
+.header .timestamp{
+    color: #c914c9 !important;
+}
+
+.notification-area .content-area .content{
+    color: #000c40;
+}
+
+.notification-area .content-area .content table{
+    color: #000c40;
+}
 
 /*Left Side Navigation Bar Styles*/
 nav.list-group > ul{ 
