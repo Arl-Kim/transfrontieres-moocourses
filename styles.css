@@ -1,30 +1,30 @@
 /*General Styles*/
-*:focus{
+*:focus {
     box-shadow: none !important;
     border: 1px solid #000c40 !important;
     border-radius: 5px !important;
     outline: none !important;
 }
 
-h3 a{
+h3 a {
     color: #000c40!important;
 }
 
-.courseindex-link{
+.courseindex-link {
     color: #000c40 !important;
 }
 
-a:hover{
+a:hover {
     color: #c914c9 !important;
     text-decoration: none !important;
 }
 
-a:focus{
+a:focus {
     background: none !important;
     color: #c914c9 !important;
 }
 
-a.active{
+a.active {
     color: #c914c9 !important;
 }
 
@@ -32,68 +32,79 @@ a[href*="http://docs.moodle.org"] {
     display: none;
 }
 
-div, button, select{
+div,
+button,
+select{
     border-radius: 5px !important;
 }
 
-h1, h2, h3, h4, h5, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     color: #000c40 !important;
 }
 
-h6, button, input.btn{
+h6,
+button,
+input.btn {
     color: #c914c9 !important;
 }
 
-.alert-info{
+.alert-info {
     background-color: #c914c9;
     color: #000c40;
 }
 
-.edit-form-switch-form{
+.edit-form-switch-form {
     display: none !important;
 }
 
-.modal-footer a.d-inline{
+.modal-footer a.d-inline {
     display: none !important;
 }
 
 
 /*Non-Logged In User Front Page Styles(Login Link)*/
 
-span.login > a{
+span.login > a {
     font-weight: 700;
 }
 
-span.login > a:focus{
+span.login > a:focus {
     background: none !important;
     color: #c914c9;
 }
 
 /*Login Page Styles*/
-.login-logo #logo-image{
+
+.login-logo #logo-image {
     max-width: 100% !important;
     max-width: 100% !important;
 }
 
-input{
+input {
     border-color: #000c40 !important;
     border-radius: 5px !important;
     color: #000c40 !important;
 }
 
-div.mt-3{
+div.mt-3 {
     color: #000c40 !important;
     font-size: 13px !important;
 }
 
-.login-form-submit{
+.login-form-submit {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#loginbtn, .singlebutton > form > button{
+#loginbtn,
+.singlebutton > form > button {
     background-color: #fff;
     color: #c914c9;
     border: 1px solid #000c40;
@@ -103,218 +114,225 @@ div.mt-3{
     font-weight: 600;
 }
 
-#loginbtn:hover, .singlebutton > form > button:hover{
+#loginbtn:hover,
+.singlebutton > form > button:hover {
     background-color: #000c40;
     color: #c914c9;
 }
 
-.login-form-forgotpassword{
+.login-form-forgotpassword {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-button.btn.btn-secondary{
+button.btn.btn-secondary {
     display: none;
 }
 
 /*Logged In User Buttons(some) Styles*/
-button.dropdown-toggle{
+button.dropdown-toggle {
     color: #000c40 !important;
     background-color: #fff !important;
     border-color: #000c40 !important;
     border-radius: 5px;
 }
 
-button.dropdown-toggle:hover{
+button.dropdown-toggle:hover {
     color: #fff !important;
     background-color: #000c40 !important;
 }
 
-button.float-sm-right{
+button.float-sm-right {
     background-image: linear-gradient(#fff, #000c40) !important;
     color: #c914c9 !important;
     font-weight: 700 !important;
 }
 
-button.float-sm-right:hover{
+button.float-sm-right:hover {
     color: #000c40 !important;
 }
 
-#message-user-button span{
+#message-user-button span {
     color: #000c40;
     transition: all 300ms ease-in-out;
 }
 
-#message-user-button span:hover{
+#message-user-button span:hover {
     color: #c914c9;
 }
 
-#notice{
+#notice {
     color: #c914c9;
 }
 
 /*Hide logged in user minilogo image beside bugger menu button*/
-span.logo > img{
+span.logo > img {
     display: none;
 }
 
-.page-header-headings h1{
+.page-header-headings h1 {
     display: none;
 }
 
 /*Notification Area Styles*/
 
-.notification-area .control-area .content .notification{
+.notification-area .control-area .content .notification {
     background: transparent;
     transition: all 400ms ease-in-out;
 }
 
-.notification-area .control-area .content .notification:hover{
+.notification-area .control-area .content .notification:hover {
     background: #c914c9;
 }
 
-.notification-area .control-area .content .notification.selected{
+.notification-area .control-area .content .notification.selected {
     background: #000c40;
 }
 
-.notification-area .content-area .header{
+.notification-area .content-area .header {
     background: #000c40;
 }
 
-.header .subject-container{
+.header .subject-container {
     color: #c914c9;
     font-weight: 700;
 }
 
-.header .timestamp{
+.header .timestamp {
     color: #c914c9 !important;
 }
 
-.notification-area .content-area .content{
+.notification-area .content-area .content {
     color: #000c40;
 }
 
-.notification-area .content-area .content table{
+.notification-area .content-area .content table {
     color: #000c40;
 }
 
 /*Activity Button*/
 
-.activity-information button{
+.activity-information button {
     background: #fff !important;
     color: #c914c9 !important;
     transition: all 400ms ease-in-out;
 }
 
 
-.activity-information button:hover{
+.activity-information button:hover {
     background: #c914c9 !important;
     color: #000c40 !important;
 }
 
 /*Calendar Table Styles*/
-th.header, td.day{
+th.header,
+td.day {
     color: #000c40 !important;
 }
 
-td.day:hover{
+td.day:hover {
     cursor: pointer !important;
     box-shadow: 0px 0px 5px #000c40 !important;
     border-radius: 5px;
 }
 
-.modal-header button:hover{
+.modal-header button:hover {
     color: #000c40 !important;
 }
 
-.modal-header button span{
+.modal-header button span {
     color: #c914c9 !important;
 }
 
-.modal-header button span:hover{
+.modal-header button span:hover {
     color: #000c40 !important;
 }
 
 /*Font Awesome Styles*/
-.fa{
+.fa {
     color: #000c40 !important;
     transition: all 300ms ease-in-out;
 }
 
-.fa:hover{
+.fa:hover {
     color: #c914c9 !important;
 }
 
 /*Burger Menu & Right Drawer Toggler Button Styles*/
 
-button.navbar-toggler{
+button.navbar-toggler {
     background: #000c40 !important;
     color: #c914c9 !important;
     border-radius: 5px;
     transition: all 0.5s ease-in-out !important;
 }
 
-button.navbar-toggler:hover{
+button.navbar-toggler:hover {
     background: #c914c9 !important;
     color: #000c40 !important;
 }
 
-button.navbar-toggler:focus{
+button.navbar-toggler:focus {
     color: #c914c9 !important;
 }
 
-.drawer-toggler button{
+.drawer-toggler button {
     transition: all 400ms ease-in-out;
 }
 
-.drawer-toggler button:hover{
+.drawer-toggler button:hover {
     background: #c914c9 !important ;
 }
 
-img.fp-repo-icon{
+img.fp-repo-icon {
     display: none;
 }
 
-.info h3.coursename a{
+.info h3.coursename a {
     font-size: 22px;
     font-weight: 700;
 }
 
-ul.teachers li span, .category-content span{
+ul.teachers li span,
+.category-content span {
     color: #c914c9 !important;
     transition: all 400ms ease-in-out;
 }
 
-.paging a, .ml-sm-auto a{
+.paging a,
+.ml-sm-auto a {
     background: #c914c9;
     color: #000c40;
 }
 
-.paging a:hover, .ml-sm-auto a:hover{
+.paging a:hover,
+.ml-sm-auto a:hover {
     background: #000c40;
 }
 
-.primary-navigation .moremenu ul li a{
+.primary-navigation .moremenu ul li a {
     color: #000c40 !important;
     font-weight: 600 !important;
     transition: all 400ms ease-in-out;
 }
 
-.primary-navigation .moremenu ul li a:hover{
+.primary-navigation .moremenu ul li a:hover {
     color: #c914c9 !important;
 }
 
-.primary-navigation .moremenu ul li a.active{
+.primary-navigation .moremenu ul li a.active {
     color: #c914c9 !important;
 }
 
 
 /*Footer Styles*/
-#page-footer{
+#page-footer {
     display: none;
 }
 
-.sitelink img, .logininfo, .tool_dataprivacy{
+.sitelink img,
+.logininfo,
+.tool_dataprivacy {
     display: none;
 }
